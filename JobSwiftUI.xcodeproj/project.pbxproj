@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		946111A12691ED9E0080384C /* ApplicationListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946111A02691ED9E0080384C /* ApplicationListScreen.swift */; };
+		946111A32691F1860080384C /* PositionSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946111A22691F1860080384C /* PositionSelectionView.swift */; };
+		946111A526925B0F0080384C /* HomeTabScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946111A426925B0F0080384C /* HomeTabScreen.swift */; };
+		946111A7269265090080384C /* ApplicationDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946111A6269265090080384C /* ApplicationDetailScreen.swift */; };
+		946111A9269269760080384C /* DashboardCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946111A8269269760080384C /* DashboardCardView.swift */; };
+		949DD94F2690F1AC00B82666 /* JobSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949DD94E2690F1AC00B82666 /* JobSwiftUIApp.swift */; };
+		949DD9512690F1AC00B82666 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949DD9502690F1AC00B82666 /* HomeView.swift */; };
+		949DD9532690F1AC00B82666 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949DD9522690F1AC00B82666 /* Assets.xcassets */; };
+		949DD9562690F1AC00B82666 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949DD9552690F1AC00B82666 /* Preview Assets.xcassets */; };
+		949DD95D2690F24000B82666 /* OptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949DD95C2690F24000B82666 /* OptionView.swift */; };
+		949DD95F269105EF00B82666 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949DD95E269105EF00B82666 /* NetworkManager.swift */; };
+		949DD962269156CD00B82666 /* AddScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949DD961269156CD00B82666 /* AddScreen.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		946111A02691ED9E0080384C /* ApplicationListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationListScreen.swift; sourceTree = "<group>"; };
+		946111A22691F1860080384C /* PositionSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionSelectionView.swift; sourceTree = "<group>"; };
+		946111A426925B0F0080384C /* HomeTabScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabScreen.swift; sourceTree = "<group>"; };
+		946111A6269265090080384C /* ApplicationDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationDetailScreen.swift; sourceTree = "<group>"; };
+		946111A8269269760080384C /* DashboardCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardCardView.swift; sourceTree = "<group>"; };
+		949DD94B2690F1AC00B82666 /* JobSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JobSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		949DD94E2690F1AC00B82666 /* JobSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobSwiftUIApp.swift; sourceTree = "<group>"; };
+		949DD9502690F1AC00B82666 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		949DD9522690F1AC00B82666 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		949DD9552690F1AC00B82666 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		949DD95C2690F24000B82666 /* OptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionView.swift; sourceTree = "<group>"; };
+		949DD95E269105EF00B82666 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		949DD9602691151A00B82666 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		949DD961269156CD00B82666 /* AddScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		949DD9482690F1AC00B82666 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		949DD9422690F1AC00B82666 = {
+			isa = PBXGroup;
+			children = (
+				949DD94D2690F1AC00B82666 /* JobSwiftUI */,
+				949DD94C2690F1AC00B82666 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		949DD94C2690F1AC00B82666 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				949DD94B2690F1AC00B82666 /* JobSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		949DD94D2690F1AC00B82666 /* JobSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				949DD9602691151A00B82666 /* Info.plist */,
+				949DD961269156CD00B82666 /* AddScreen.swift */,
+				946111A22691F1860080384C /* PositionSelectionView.swift */,
+				949DD94E2690F1AC00B82666 /* JobSwiftUIApp.swift */,
+				946111A426925B0F0080384C /* HomeTabScreen.swift */,
+				949DD9502690F1AC00B82666 /* HomeView.swift */,
+				949DD95E269105EF00B82666 /* NetworkManager.swift */,
+				949DD95C2690F24000B82666 /* OptionView.swift */,
+				946111A02691ED9E0080384C /* ApplicationListScreen.swift */,
+				946111A6269265090080384C /* ApplicationDetailScreen.swift */,
+				946111A8269269760080384C /* DashboardCardView.swift */,
+				949DD9522690F1AC00B82666 /* Assets.xcassets */,
+				949DD9542690F1AC00B82666 /* Preview Content */,
+			);
+			path = JobSwiftUI;
+			sourceTree = "<group>";
+		};
+		949DD9542690F1AC00B82666 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				949DD9552690F1AC00B82666 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		949DD94A2690F1AC00B82666 /* JobSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 949DD9592690F1AC00B82666 /* Build configuration list for PBXNativeTarget "JobSwiftUI" */;
+			buildPhases = (
+				949DD9472690F1AC00B82666 /* Sources */,
+				949DD9482690F1AC00B82666 /* Frameworks */,
+				949DD9492690F1AC00B82666 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JobSwiftUI;
+			productName = JobSwiftUI;
+			productReference = 949DD94B2690F1AC00B82666 /* JobSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		949DD9432690F1AC00B82666 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					949DD94A2690F1AC00B82666 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 949DD9462690F1AC00B82666 /* Build configuration list for PBXProject "JobSwiftUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 949DD9422690F1AC00B82666;
+			productRefGroup = 949DD94C2690F1AC00B82666 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				949DD94A2690F1AC00B82666 /* JobSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		949DD9492690F1AC00B82666 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949DD9562690F1AC00B82666 /* Preview Assets.xcassets in Resources */,
+				949DD9532690F1AC00B82666 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		949DD9472690F1AC00B82666 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949DD95F269105EF00B82666 /* NetworkManager.swift in Sources */,
+				946111A9269269760080384C /* DashboardCardView.swift in Sources */,
+				949DD9512690F1AC00B82666 /* HomeView.swift in Sources */,
+				949DD95D2690F24000B82666 /* OptionView.swift in Sources */,
+				949DD962269156CD00B82666 /* AddScreen.swift in Sources */,
+				946111A12691ED9E0080384C /* ApplicationListScreen.swift in Sources */,
+				946111A32691F1860080384C /* PositionSelectionView.swift in Sources */,
+				946111A526925B0F0080384C /* HomeTabScreen.swift in Sources */,
+				949DD94F2690F1AC00B82666 /* JobSwiftUIApp.swift in Sources */,
+				946111A7269265090080384C /* ApplicationDetailScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		949DD9572690F1AC00B82666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		949DD9582690F1AC00B82666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		949DD95A2690F1AC00B82666 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JobSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 77ZMZ9S3J5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JobSwiftUI/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = JobSwiftUI;
+				INFOPLIST_KEY_CFBundleName = JobSwiftUI;
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.UDT.JobSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		949DD95B2690F1AC00B82666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"JobSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 77ZMZ9S3J5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JobSwiftUI/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = JobSwiftUI;
+				INFOPLIST_KEY_CFBundleName = JobSwiftUI;
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.UDT.JobSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		949DD9462690F1AC00B82666 /* Build configuration list for PBXProject "JobSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				949DD9572690F1AC00B82666 /* Debug */,
+				949DD9582690F1AC00B82666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		949DD9592690F1AC00B82666 /* Build configuration list for PBXNativeTarget "JobSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				949DD95A2690F1AC00B82666 /* Debug */,
+				949DD95B2690F1AC00B82666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 949DD9432690F1AC00B82666 /* Project object */;
+}
